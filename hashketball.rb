@@ -110,7 +110,6 @@ def game_hash
           :steals => "22",
           :blocks => "5", 
           :slum_dunks => "12"}
-    }
     ]
   }
   }
