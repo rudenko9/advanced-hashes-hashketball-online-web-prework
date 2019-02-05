@@ -36,7 +36,15 @@ def game_hash
           :blocks => "1",
           :slum_dunks => "15"},
           
-          {
+          {:player_name => "Brook Lopez",
+          :number => "11",
+          :shoe => "17",
+          :points => "17",
+          :rebounds => "19",
+          :assists => "10",
+          :steals => "13",
+          :blocks => "1",
+          :slum_dunks => "15"},
           
         }]
       
