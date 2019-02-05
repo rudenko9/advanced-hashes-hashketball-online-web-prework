@@ -36,7 +36,7 @@ def game_hash
           :blocks => "1",
           :slum_dunks => "15"},
           
-          {:player_name => "Brook Lopez",
+          {:player_name => "Mason Plumlee",
           :number => "11",
           :shoe => "17",
           :points => "17",
