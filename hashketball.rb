@@ -111,7 +111,10 @@ def game_hash
           :blocks => "5", 
           :slum_dunks => "12"}
     }
+    ]
   }
+  }
+end
   
 
 
