@@ -59,7 +59,8 @@ def game_hash
           
         }]
       
-    }
+    },
+    
   }
   
 
