@@ -99,7 +99,9 @@ def game_hash
           :assists => "2",
           :steals => "1",
           :blocks => "1", 
-          :slum_dunks => "0"
+          :slum_dunks => "0"},
+          
+          {
     }
   }
   
