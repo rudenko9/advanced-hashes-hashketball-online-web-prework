@@ -71,7 +71,17 @@ def game_hash
           :blocks => "7",
           :slum_dunks => "2"},
           
-          { 
+          {:player_name => "Bismak Biyombo",
+          :number => "0",
+          :shoe => "16",
+          :points => "12",
+          :rebounds => "4",
+          :assists => "7",
+          :steals => "7",
+          :blocks => "15", 
+          :slum_dunks => "10"},
+          
+          {
     }
   }
   
