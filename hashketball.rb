@@ -101,7 +101,15 @@ def game_hash
           :blocks => "1", 
           :slum_dunks => "0"},
           
-          {
+          {:player_name => "Brendan Haywood",
+          :number => "33",
+          :shoe => "15",
+          :points => "6",
+          :rebounds => "12",
+          :assists => "12",
+          :steals => "22",
+          :blocks => "5", 
+          :slum_dunks => "12"}
     }
   }
   
