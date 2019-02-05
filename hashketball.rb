@@ -71,7 +71,7 @@ def game_hash
           :blocks => "7",
           :slum_dunks => "2"},
           
-          {
+          { 
     }
   }
   
