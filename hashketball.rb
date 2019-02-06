@@ -131,7 +131,8 @@ end
   find_shoe.fetch(:shoe)
 end 
   
-  
+ def team_stats
+   home_team
   
 
 
