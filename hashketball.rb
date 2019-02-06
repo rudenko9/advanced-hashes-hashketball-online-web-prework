@@ -117,8 +117,10 @@ end
 
 def num_points_scored (name)
    
-game_hash.sort_by {|k, v| v[:points]}
-  
+game_hash.each do |away, players|
+  if players = :points
+    points 
+  end
 end
   
   
