@@ -127,7 +127,7 @@ def num_points_scored(name)
   (:player_name) == name }
   find_player.fetch(:points)
 end
-num_points_scored("Jeff Adrien")
+
   
   
 
