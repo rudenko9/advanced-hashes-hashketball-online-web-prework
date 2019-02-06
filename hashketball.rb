@@ -115,6 +115,7 @@ def game_hash
   }
 end
 def num_points_scored (name)
+  answer = [:points]
    game_hash.each do |team, details_hash|
     players_array = details_hash[:players]
       players_array.each do |player_details_hash|
