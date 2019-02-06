@@ -127,9 +127,9 @@ def num_points_scored(name)
   find_player.fetch(:points)
 end 
   
-  def shoes_size(name)
-  find_shoes = players.find {|player| player.fetch(:player_name) == name }
-  find_shoes.fetch(:shoe)
+  def shoe_size(name)
+  find_shoe = players.find {|player| player.fetch(:player_name) == name }
+  find_shoe.fetch(:shoe)
 end 
   
 
