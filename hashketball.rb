@@ -161,10 +161,7 @@ def player_stats(player_name)
   stats.delete_if {|info, string| info == :player_name}
 end 
 
-  def big_shoe_rebounds
-    most = players.max_by {|player_name| player_name.fetch(:player_name)}
-    most.max {|b,a| b.length <=> a.length}
-  end
+ 
 
 
 
