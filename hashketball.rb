@@ -121,6 +121,7 @@ def num_points_scored (name)
         if player_details_hash[:name] == name
           answer = player_details_hash[:points]
         end
+        answer
       end
   end
 end
