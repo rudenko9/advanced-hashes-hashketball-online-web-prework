@@ -115,9 +115,8 @@ def game_hash
   }
 end
 
-def num_points_scored (name)
-   
-game_hash.each do |away, players|
+def num_points_scored (game_hash)
+   game_hash.each do |away, players|
   if players = :points
     points 
   end
