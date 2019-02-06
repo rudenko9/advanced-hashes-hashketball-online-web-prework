@@ -14,7 +14,7 @@ def game_hash
           :assists => 12,
           :steals => 3,
           :blocks => 1,
-          :slum_dunks => 1
+          :slam_dunks => 1
         },
         {:player_name => "Reggie Evans",
           :number => 30,
@@ -24,7 +24,7 @@ def game_hash
           :assists => 12,
           :steals => 12,
           :blocks => 12,
-          :slum_dunks => 7},
+          :slam_dunks => 7},
           
           {:player_name => "Brook Lopez",
           :number => 11,
@@ -34,7 +34,7 @@ def game_hash
           :assists => 10,
           :steals => 13,
           :blocks => 1,
-          :slum_dunks => 15},
+          :slam_dunks => 15},
           
           {:player_name => "Mason Plumlee",
           :number => 1,
@@ -44,7 +44,7 @@ def game_hash
           :assists => 6,
           :steals => 3,
           :blocks => 8,
-          :slum_dunks => 5},
+          :slam_dunks => 5},
           
           {:player_name => "Jason Terry",
           :number => 31,
@@ -54,7 +54,7 @@ def game_hash
           :assists => 2,
           :steals => 4,
           :blocks => 11,
-          :slum_dunks => 1}
+          :slam_dunks => 1}
            ]
        },
     :away => {
@@ -69,7 +69,7 @@ def game_hash
           :assists => 1,
           :steals => 2,
           :blocks => 7,
-          :slum_dunks => 2},
+          :slam_dunks => 2},
           
           {:player_name => "Bismak Biyombo",
           :number => 0,
