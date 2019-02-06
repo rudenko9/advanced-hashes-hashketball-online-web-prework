@@ -143,6 +143,12 @@ end
   find_team.fetch(:colors)
 end 
 
+def team_name
+  team_stats.collect do |team|
+    team[:team_name]
+  end
+end
+
 
 
 
