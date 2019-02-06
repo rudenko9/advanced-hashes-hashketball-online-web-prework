@@ -156,7 +156,12 @@ def player_numbers(team_name)
   end 
 end 
 
+def player_stats(player_name)
+  stats + players.find {|player| player.fetch(:player_name) == player_name}
+  stats.delete_if {|info, string| info == :player_name}
+end 
 
+  
 
 
 
