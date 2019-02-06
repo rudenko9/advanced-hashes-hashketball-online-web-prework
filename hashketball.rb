@@ -117,7 +117,8 @@ end
 
 def num_points_scored (name)
    
-game_hash[:away][:players][:points]
+game_hash.each do |key, value|
+end
 end
   
   
