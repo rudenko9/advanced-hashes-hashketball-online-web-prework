@@ -117,7 +117,8 @@ end
 
 def num_points_scored (name)
    
-game_hash[:away][:]
+game_hash[:away][:players][:points]
+end
   
   
 
