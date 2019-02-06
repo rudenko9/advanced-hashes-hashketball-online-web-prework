@@ -148,6 +148,7 @@ def team_name
     team[:team_name]
   end
 end
+
 def player_numbers(team_name)
   find_numbers = team_stats.find {|team| team.fetch(:team_name) == team_name}
   find_numbers[:players].collect do |player| 
