@@ -119,7 +119,7 @@ def num_points_scored(name)
   find_player = players.find {|player| player.fetch (:player_name) == name}
   find_player.fetch(:points)
 end 
-num_points_scored("")
+num_points_scored("Jef Adrien")
   
   
 
