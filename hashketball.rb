@@ -117,7 +117,7 @@ end
 
 def num_points_scored (name)
    
-game_hash.sort_by {|k, v| V[:points]
+game_hash.sort_by {|k, v| v[:points]
   
 end
   
