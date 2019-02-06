@@ -132,8 +132,13 @@ end
 end 
   
  def team_stats
-   home_team
-  
+   home_team = game_hash.values_at(:home)
+   away_team = game_hash.values_at(:away)
+  total_team_stats = home_team + away_team
+  total_team_stats
+end
+ 
+ 
 
 
 
