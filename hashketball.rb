@@ -162,7 +162,7 @@ def player_stats(player_name)
 end 
 
 def biggest_shoe
-  player.max_by {|payer_shoe| player_shoe.fetch(:shoe)}
+  player.max_by {|player_shoe| player_shoe.fetch(:shoe)}
 end
 
  def big_shoe_rebounds
