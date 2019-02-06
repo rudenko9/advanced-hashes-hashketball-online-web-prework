@@ -123,6 +123,7 @@ def points_of_players(player_name, points)
       end
     end
   end
+  player_hash
 end
 
   
