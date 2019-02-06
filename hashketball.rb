@@ -124,7 +124,7 @@ def num_points_scored(player_name, points)
     end
   end
 end
-num_points_scored("Jeff Adrien")
+p num_points_scored("Jeff Adrien")
 
   
   
