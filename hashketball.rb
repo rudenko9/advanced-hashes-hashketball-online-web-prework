@@ -115,10 +115,11 @@ def game_hash
   }
 end
 
-def num_points_scored(name)
-  find_player = players.find {|player| player.fetch
-  (:player_name) == name }
-  find_player.fetch(:points)
+def num_points_scored(player_name, points)
+  game.each do |team, team_hash|
+    team_hash[:players].each do |players, player_hash|
+      if player_hash[:name] == player_name
+        return player_hash
 end
 
   
